@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth h-full">
+	<head>
+		${require('./_partials/meta.html')}
+	</head>
+
+	<body x-data="{ selectedTabIndex: window.location.hash ? window.location.hash.substring(1)*1 : 0 }"  x-tabs x-model="selectedTabIndex" class="selection:bg-amber-200/75 bg-neutral-300 relative h-full font-sans text-black bg-fixed">
+
+		${require('./_partials/nav.html')}
+
+		<div x-tabs:panels>
+			${require('./_partials/defCurrent.html')}
+			${require('./_partials/def1949.html')}
+			${require('./_partials/defNeutral.html')}
+			${require('./_partials/notADiet.html')}
+		</div>
+
+		<script defer src="https://unpkg.com/@alpinejs/ui@3.10.5-beta.8/dist/cdn.min.js"></script>
+		<script defer src="https://unpkg.com/@alpinejs/focus@3.10.5/dist/cdn.min.js"></script>
+		<script defer src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js"></script>
+	</body>
+</html>

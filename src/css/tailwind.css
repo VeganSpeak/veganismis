@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+}
+
+@layer components {
+	.navigation {
+		@apply
+			bg-neutral-100
+			text-sm
+			sm:inset-x-2
+			sm:bottom-2
+			sm:px-4
+			sm:rounded
+			sm:py-2
+			md:gap-2
+			md:px-12
+			md:shadow-2xl
+			md:shadow-black/50
+			md:inset-x-4
+			md:bottom-4
+			md:items-center
+			lg:text-lg
+			lg:pr-4
+			xl:gap-4
+			fixed
+			inset-x-0
+			bottom-0
+			flex
+			items-stretch
+			overflow-x-auto
+			justify-center
+	}
+}
+
+@layer utilities {
+}

@@ -1,1 +1,3 @@
-# veganismis
+# Veganism is…
+
+“a philosophy and way of living which seeks to exclude—as far as is possible and practicable—all forms of *exploitation* of, and *cruelty* to, animals for food, clothing or any other purpose.”
