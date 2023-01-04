@@ -31,7 +31,7 @@
 			flex
 			items-stretch
 			overflow-x-auto
-			justify-center
+			max-md:justify-center
 	}
 }
 
