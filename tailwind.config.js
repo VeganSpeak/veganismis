@@ -5,7 +5,7 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ["Space Grotesk",, ...defaultTheme.fontFamily.sans],
+				sans: ["Space Grotesk", ...defaultTheme.fontFamily.sans],
 			},
       typography: ({ theme }) => ({
         neutral: {
