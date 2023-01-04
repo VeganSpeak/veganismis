@@ -1,4 +1,4 @@
-name: veganismis
+name: vgn
 type: php
 docroot: public
 php_version: "8.1"
@@ -8,9 +8,7 @@ router_https_port: "443"
 xdebug_enabled: false
 additional_hostnames: []
 additional_fqdns: []
-database:
-  type: mariadb
-  version: "10.3"
+omit_containers: [db, dba]
 nfs_mount_enabled: false
 mutagen_enabled: false
 use_dns_when_possible: true

@@ -1,8 +1,8 @@
 {
-  "name": "veganismis",
+  "name": "vgnfyi",
   "version": "1.0.0",
   "description": "The definition of Veganism",
-  "homepage": "https://veganismis.com",
+  "homepage": "https://vgn.fyi",
   "browserlisturl": "https://browserslist.dev/?q=bGFzdCA0IHZlcnNpb25zLCA%2BPSAwLjUlLCBGaXJlZm94IEVTUiwgIG5vdCBkZWFk",
   "browserslist": [
     "last 4 versions",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RyanRoberts/veganismis.git"
+    "url": "git+https://github.com/VeganSpeak/veganismis.git"
   },
   "license": "UNLICENSED",
   "devDependencies": {
