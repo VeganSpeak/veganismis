@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth h-full">
 	<head>
-		${require('./_partials/meta.html')}
+		${require('./partials/_meta.html')}
 	</head>
 
 	<body x-data="{ selectedTabIndex: window.location.hash ? window.location.hash.substring(1)*1 : 0 }"  x-tabs x-model="selectedTabIndex" class="selection:bg-amber-200/75 bg-neutral-300 relative h-full font-sans text-black bg-fixed">
 
-		${require('./_partials/nav.html')}
+		${require('./partials/_nav.html')}
 
 		<div x-tabs:panels>
-			${require('./_partials/defCurrent.html')}
-			${require('./_partials/def1949.html')}
-			${require('./_partials/notADiet.html')}
+			${require('./partials/_defCurrent.html')}
+			${require('./partials/_def1949.html')}
+			${require('./partials/_notADiet.html')}
 		</div>
 
 		<script defer src="https://unpkg.com/@alpinejs/ui@3.10.5-beta.8/dist/cdn.min.js"></script>
