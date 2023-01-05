@@ -1,0 +1,30 @@
+<nav x-tabs:list class="navigation">
+	<h1 class="max-md:sr-only inline-flex pr-5 opacity-50">
+		<span class="sr-only">Vegan</span>
+		Definitions<span class="pl-1">:</span>
+	</h1>
+
+	<button
+		x-tabs:tab
+		type="button"
+		:class="$tab.isSelected ? 'bg-amber-200 md:shadow-inner' : ''"
+		class="sm:rounded-full sm:py-3 inline-flex items-center px-6 py-2 font-semibold"
+		@click.prevent="window.location.hash = '0'"
+	>Current</button>
+
+	<button
+		x-tabs:tab
+		type="button"
+		:class="$tab.isSelected ? 'bg-amber-200 md:shadow-inner' : ''"
+		class="sm:rounded-full sm:py-3 inline-flex items-center px-6 py-4 font-semibold"
+		@click.prevent="window.location.hash = '1'"
+	>1949<span class="max-md:sr-only"> Original</span></button>
+
+	<button
+		x-tabs:tab
+		type="button"
+		:class="$tab.isSelected ? 'bg-amber-200 md:shadow-inner' : ''"
+		class="sm:rounded-full sm:py-3 inline-flex items-center p-4 font-semibold"
+		@click.prevent="window.location.hash = '2'"
+	>Not a Diet</button>
+</nav>
