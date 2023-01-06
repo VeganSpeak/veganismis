@@ -23,7 +23,6 @@
 			md:bottom-4
 			md:items-center
 			lg:text-lg
-			lg:pr-4
 			xl:gap-4
 			fixed
 			inset-x-0
@@ -32,6 +31,7 @@
 			items-stretch
 			overflow-x-auto
 			max-md:justify-center
+			z-20
 	}
 }
 
